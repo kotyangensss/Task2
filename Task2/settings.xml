@@ -2,7 +2,7 @@
 <SettingObject>
     <Link>https://habr.com/rss/interesting/</Link>
     <Frequency>10000</Frequency>
-    <Address>203.28.8.128:80</Address>
+    <Address></Address>
     <Login></Login>
     <Password></Password>
 </SettingObject>

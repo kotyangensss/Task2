@@ -56,10 +56,10 @@ namespace Task2
             var client = new WebClient()
             {
                 
-                /*Proxy = new WebProxy(string.IsNullOrEmpty(_setting.Address)? null : _setting.Address, true)
+                Proxy = new WebProxy(string.IsNullOrEmpty(_setting.Address)? null : _setting.Address, true)
                 {
                     Credentials = new NetworkCredential(string.IsNullOrEmpty(_setting.Login)? null : _setting.Login, string.IsNullOrEmpty(_setting.Password)? null : _setting.Password)
-                }*/
+                }
             } ;
             var xDoc = XDocument.Load(
                 XmlReader.Create(client.OpenRead(_setting.Link) ?? throw new InvalidOperationException()));
